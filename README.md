@@ -32,4 +32,7 @@ Step 5. Return the longest and seclongest words
 
 # Overview
 
--> I used Trie data structure its a special tree that stores strings.The complexity of creating a trie is O(N*S), where N is the number of words, and S is an average length of the word.
+-> The program reads a list of words from an input file, processes them, and then outputs the longest and second longest compound words found in the list. It also measures the time taken to complete the task.
+
+Trie Data Structure
+The program employs a trie data structure to efficiently store and search for words. A trie is a tree-like structure in which each node represents a character in a word. The tree starts at the root node and branches into child nodes, each corresponding to a different character. The Trie class includes methods for inserting words into the trie and searching for words.
